@@ -10,9 +10,10 @@ $("#search_value").on('keyup',function () {
         },
 
         success(response) {
-            console.log(response);
             $("#animals_value").html(response);
             return response;
         },
     });
 });
+
+
