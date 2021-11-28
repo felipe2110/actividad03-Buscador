@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-10">
                         <label for="formGroupExampleInput2" class="form-label">Busca un Animal</label>
-                        <input type="search" class="form-control" id="search_value" name="search_value" placeholder="Puedes buscar por tipo">
+                        <input type="search" class="form-control" id="search_value" name="search_value" placeholder="Busca por nombre, tipo o descripción ...">
                     </div>
                     <div class="col">
                         <a href="{{url('Animals/create')}}" class="btn btn-success">Crear nuevo Animal</a>
